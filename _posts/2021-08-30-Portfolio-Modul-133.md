@@ -29,6 +29,8 @@ Zuerst habe ich eine Backing-Bean Java Klasse erstellt, indem ich die Getter und
 Auf der index.xhtml Seite habe ich die Eingaben des Benutzers in meine Backing-Bean Klasse zu meinen erstellten Getter und Setter weitergeleitet (siehe Abb.1).
 
 Und weil das ganze ein form ist (siehe Abb. 1), habe ich den Benutzer einfach auf dieselbe Seite weitergeleitet, sodass die Werte übergeben werden und der Hintergrund geändert wird. Für das Umwandeln von rgb zu Hex habe ich eine Methode online gefunden:
+<br />
+
     ```java
     public String rgbToHex(){
         String hex = String.format("#%02x%02x%02x", rgbred, rgbgreen, rgbblue); 
@@ -46,17 +48,17 @@ https://youtu.be/
 
 ### Reflexion
 
-Was mich am Anfang sehr verwirrt hat, war die Wertweiterleitung zur Backing-Bean. Warum sagt man z. B. #{BackingBean.rgbblue), statt #{BackingBean.setrgbblue) oder #{BackingBean.getrgbblue). Später habe ich gemerkt, dass es den Setter oder Getter nach dem xhtml Elementtyp nimmt. Ob es ein Eingabe- oder Ausgabeelement ist. Bei `<h:inputText>` ist es klar ein Eingabeelement, also wird der Wert an die Setter Methode weitergeleitet. 
+Was mich am Anfang sehr verwirrt hat, war die Wertweiterleitung zur Backing-Bean. Warum sagt man z. B. `#{BackingBean.rgbblue)`, statt `#{BackingBean.setrgbblue)` oder `#{BackingBean.getrgbblue)`. Später habe ich gemerkt, dass es den Setter oder Getter nach dem xhtml Elementtyp nimmt. Ob es ein Eingabe- oder Ausgabeelement ist. Bei `<h:inputText>` ist es klar ein Eingabeelement, also wird der Wert an die Setter Methode weitergeleitet. 
 
 Ebenfalls konnte ich die weiteren Input Elemente selectOneMenu und selectOneListbox nicht implementieren. Es war relativ mühsam herauszufinden wie man die Dropdowns mit Items befüllt.
 
-Ansonsten gab es keine grossen Schwierigkeiten, ausser dass man @ApplicationScoped benutzen musste, was auch ziemlich selbsterklärend ist.
+Ansonsten gab es keine grossen Schwierigkeiten, ausser dass man `@ApplicationScoped` benutzen musste, was auch ziemlich selbsterklärend ist.
 
 Ziele:
-Erreicht Zur Verwaltung der RGB-Werte eine Backing-Bean Klasse erstellen
-Nicht erreicht Nutzung von drei verschiedenen Eingabeelementen: inputText, selectOneMenu und selectOneListbox
-Erreicht Die Hintergrundfarbe der Webseite anhand der Benutzereingaben ändern
-Erreicht Ich weiss, warum man @ApplicationScoped benutzt
+* **Erreicht** Zur Verwaltung der RGB-Werte eine Backing-Bean Klasse erstellen
+* **Nicht erreicht** Nutzung von drei verschiedenen Eingabeelementen: inputText, selectOneMenu und selectOneListbox
+* **Erreicht** Die Hintergrundfarbe der Webseite anhand der Benutzereingaben ändern
+* **Erreicht** Ich weiss, warum man @ApplicationScoped benutzt
  
 
 
