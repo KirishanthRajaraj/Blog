@@ -29,7 +29,6 @@ Zuerst habe ich eine Backing-Bean Java Klasse erstellt, indem ich die Getter und
 Auf der index.xhtml Seite habe ich die Eingaben des Benutzers in meine Backing-Bean Klasse zu meinen erstellten Getter und Setter weitergeleitet (siehe Abb.1).
 
 Und weil das ganze ein form ist (siehe Abb. 1), habe ich den Benutzer einfach auf dieselbe Seite weitergeleitet, sodass die Werte übergeben werden und der Hintergrund geändert wird. Für das Umwandeln von rgb zu Hex habe ich eine Methode online gefunden:
-<br />
 
     ```java
     public String rgbToHex(){
