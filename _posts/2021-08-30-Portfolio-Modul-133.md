@@ -16,7 +16,7 @@ The easiest way to make your first post is to edit this one. Go into /_posts/ an
 Ziel dieses Auftrages ist es, mit verschiedenen Input Elementen RGB Werte von 0 bis 255 auswählen zu können und mit diesen Angaben die Hintergrundfarbe der Webseite zu ändern. Ebenfalls muss man wissen welche Session Art zu benutzen ist.
 
 
-Ziele:
+**Ziele:**
 * Zur Verwaltung der RGB-Werte eine Backing-Bean Klasse erstellen
 * Nutzung von drei verschiedenen Eingabeelementen: inputText, selectOneMenu und selectOneListbox
 * Die Hintergrundfarbe der Webseite anhand der Benutzereingaben ändern
@@ -54,7 +54,7 @@ Ebenfalls konnte ich die weiteren Input Elemente selectOneMenu und selectOneList
 
 Ansonsten gab es keine grossen Schwierigkeiten, ausser dass man `@ApplicationScoped` benutzen musste, was auch ziemlich selbsterklärend ist.
 
-Ziele:
+**Ziele:**
 * **Erreicht** Zur Verwaltung der RGB-Werte eine Backing-Bean Klasse erstellen
 * **Nicht erreicht** Nutzung von drei verschiedenen Eingabeelementen: inputText, selectOneMenu und selectOneListbox
 * **Erreicht** Die Hintergrundfarbe der Webseite anhand der Benutzereingaben ändern
