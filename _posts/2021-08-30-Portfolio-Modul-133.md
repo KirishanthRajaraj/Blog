@@ -59,7 +59,11 @@ Ansonsten gab es keine grossen Schwierigkeiten, ausser dass man `@ApplicationSco
 * **Nicht erreicht** Nutzung von drei verschiedenen Eingabeelementen: inputText, selectOneMenu und selectOneListbox
 * **Erreicht** Die Hintergrundfarbe der Webseite anhand der Benutzereingaben ändern
 * **Erreicht** Ich weiss, warum man @ApplicationScoped benutzt
- 
+
+### Validierung
+Projekt download:
+[LA_133_9952_RGBtoHex.zip](https://github.com/KirishanthRajaraj/blog/files/7112462/LA_133_9952_RGBtoHex.zip)
+
 
 
 
